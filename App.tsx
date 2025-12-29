@@ -59,7 +59,7 @@ const Navbar = () => {
     <nav className={`fixed w-full z-50 transition-all duration-500 ${isScrolled ? 'glass-effect py-3 shadow-lg' : 'bg-transparent py-6'}`}>
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         <Link to="/" className="flex items-center group">
-          <img src="/img/logo.webp" alt="Logo Metropolitano" className="h-14 object-contain group-hover:scale-105 transition-transform" />
+          <img src="/logo.webp" alt="Logo Metropolitano" className="h-14 object-contain group-hover:scale-105 transition-transform" />
         </Link>
 
         <div className="hidden md:flex items-center space-x-10">
@@ -127,7 +127,7 @@ const Footer = () => (
       <div className="grid md:grid-cols-4 gap-16 mb-20">
         <div className="col-span-2">
           <div className="mb-8">
-            <img src="/img/logo.webp" alt="Logo Metropolitano" className="h-12 object-contain" />
+            <img src="/logo.webp" alt="Logo Metropolitano" className="h-12 object-contain" />
           </div>
           <p className="text-slate-500 max-w-sm mb-10 leading-relaxed text-lg">
             Líderes en radiología en Panamá. Combinamos el rigor clínico más exigente con una calidez humana que transforma la experiencia diagnóstica.
