@@ -1,0 +1,7 @@
+{
+  "name": "Metropolitano Advanced Radiology",
+  "description": "A premium, modern healthcare platform for diagnostic imaging, focusing on precision technology and human-centric care.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
