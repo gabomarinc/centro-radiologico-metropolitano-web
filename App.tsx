@@ -58,12 +58,8 @@ const Navbar = () => {
   return (
     <nav className={`fixed w-full z-50 transition-all duration-500 ${isScrolled ? 'glass-effect py-3 shadow-lg' : 'bg-transparent py-6'}`}>
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
-        <Link to="/" className="flex items-center space-x-3 group">
-          <img src="/dist/img/logo.webp" alt="Logo Metropolitano" className="w-11 h-11 object-contain group-hover:scale-105 transition-transform" />
-          <div>
-            <span className={`text-2xl font-extrabold tracking-tight block leading-none transition-colors ${isDarkText ? 'text-slate-900' : 'text-slate-900'}`}>METROPOLITANO</span>
-            <span className="text-[10px] tracking-widest uppercase font-bold text-[#6C569E] block mt-0.5 text-center md:text-left">Panamá | Radiología</span>
-          </div>
+        <Link to="/" className="flex items-center group">
+          <img src="/img/logo.webp" alt="Logo Metropolitano" className="h-14 object-contain group-hover:scale-105 transition-transform" />
         </Link>
 
         <div className="hidden md:flex items-center space-x-10">
@@ -130,9 +126,8 @@ const Footer = () => (
     <div className="max-w-7xl mx-auto px-6">
       <div className="grid md:grid-cols-4 gap-16 mb-20">
         <div className="col-span-2">
-          <div className="flex items-center space-x-3 mb-8">
-            <img src="/dist/img/logo.webp" alt="Logo Metropolitano" className="w-10 h-10 object-contain" />
-            <span className="text-2xl font-bold text-white tracking-tight">METROPOLITANO</span>
+          <div className="mb-8">
+            <img src="/img/logo.webp" alt="Logo Metropolitano" className="h-12 object-contain" />
           </div>
           <p className="text-slate-500 max-w-sm mb-10 leading-relaxed text-lg">
             Líderes en radiología en Panamá. Combinamos el rigor clínico más exigente con una calidez humana que transforma la experiencia diagnóstica.
