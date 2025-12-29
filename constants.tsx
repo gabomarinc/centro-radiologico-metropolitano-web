@@ -17,7 +17,7 @@ export const SERVICES: Service[] = [
     description: 'Escaneos ultrarrápidos de 128 cortes con dosis mínima de radiación.',
     longDescription: 'Ideal para estudios vasculares, pulmonares y dentales de alta complejidad. Nuestra tecnología reduce la exposición radiológica hasta en un 40%.',
     iconName: 'Zap',
-    image: 'https://images.unsplash.com/photo-1579154236594-c199f3768fc9?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=800',
     preparation: ['Ayuno si es con contraste', 'Prueba de creatinina reciente', 'Informar sobre alergias']
   },
   {
@@ -26,7 +26,7 @@ export const SERVICES: Service[] = [
     description: 'Diagnóstico no invasivo con visualización en tiempo real.',
     longDescription: 'Especialistas en Doppler color, ultrasonido obstétrico de alta definición y estudios de partes blandas con transductores de última generación.',
     iconName: 'Baby',
-    image: 'https://images.unsplash.com/photo-1584362946045-121f8a99524c?auto=format&fit=crop&q=80&w=800',
+    image: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&q=80&w=800',
     preparation: ['Vejiga llena para pélvicos', 'Ayuno para abdominales']
   },
   {
